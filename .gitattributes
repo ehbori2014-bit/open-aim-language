@@ -1,5 +1,0 @@
-# Store text files with LF line endings in git; Windows checkouts still get CRLF.
-* text=auto
-
-*.ico binary
-*.png binary
