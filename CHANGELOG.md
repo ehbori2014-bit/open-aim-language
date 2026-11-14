@@ -2,6 +2,20 @@
 
 All notable changes to open-aim. Newest first.
 
+## [Multilingual fork] - 2026-11-14
+
+Fork of [unkwsr/open-aim](https://github.com/unkwsr/open-aim) 1.3.0. Training features are unchanged.
+
+### Added
+- **Language tab** in Settings, after Audio and Visuals: English, 한국어, 日本語 and 中文, each with its flag and native name. Choosing one reloads the screen in that language.
+- **Korean:** the full interface, drill names and descriptions, in everyday 해요체 with the game's official Korean map, agent and weapon names.
+- **Japanese:** menus and settings, plus part of the game dictionary; untranslated lines stay in English.
+- **Chinese:** the game's original text, plus translations of the screens open-aim adds.
+- `scripts/translate-ollama.mjs` and `scripts/english-source.mjs` to translate the rest with a local Ollama model.
+
+### Changed
+- Interface mode, skin picker and startup screen find their elements by position or by any language's text, so they keep working when the interface isn't English.
+
 ## [1.3.0] - 2026-10-29
 
 **The biggest update yet: a new map, 15 skins, new aiming and effects, a much bigger Studio and smoother performance.**
